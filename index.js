@@ -1,3 +1,3 @@
-const connectMongoDB = require('./config');
+import connectMongoDB from './config';
 
 connectMongoDB();
